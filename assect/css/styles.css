@@ -1,6 +1,8 @@
-
+body {
+    background: black;
+}
 .perfil {
-    background: white;
+    background: rgb(255, 244, 244);
     color: black;
     border-radius: 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -17,4 +19,14 @@ img {
     display: block;
     margin: 0 auto;
     
+}
+.perfil h2 {
+    padding: 0.2rem;
+}
+.perfil:hover {
+    box-shadow: 0 4px 38px rgba(0, 60, 255, 1.6);
+}
+.perfil h2:hover {
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
